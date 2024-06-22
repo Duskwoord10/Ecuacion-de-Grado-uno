@@ -1,0 +1,20 @@
+.
+├── src
+│   ├── domain
+│   │   ├── models
+│   │   │   └── equation.py
+│   │   ├── services
+│   │   │   └── equation_solver.py
+│   │   └── exceptions.py
+│   ├── infrastructure
+│   │   └── repositories
+│   └── application
+│       └── use_cases
+│           └── solve_equation.py
+├── tests
+│   ├── domain
+│   │   └── test_equation.py
+│   ├── application
+│   │   └── test_solve_equation.py
+│   └── conftest.py
+└── README.md
